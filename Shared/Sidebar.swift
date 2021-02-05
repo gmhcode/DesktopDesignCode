@@ -13,7 +13,7 @@ struct Sidebar: View {
             List {
                 Label("Courses", systemImage: "book.closed")
                 Label("Tutorials", systemImage: "list.bullet.rectangle")
-                Label("Livestreams", systemImage: "tv")
+                Label("LiveStreams", systemImage: "tv")
                 Label("Certificates", systemImage: "mail.stack")
                 Label("Search", systemImage: "magnifyingglass")
             }
