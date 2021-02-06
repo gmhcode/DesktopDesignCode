@@ -16,7 +16,7 @@ struct CoursesView: View {
             ScrollView {
                 VStack(spacing: 20) {
                     CourseItem()
-                        .matchedGeometryEffect(id: "Card", in: namespace, isSource: !show)
+                        .matchedGeometryEffect(id: "a", in: namespace, isSource: !show)
                         .frame(width: 335, height: 250)
                     CourseItem()
                         .frame(width: 335, height: 250)
