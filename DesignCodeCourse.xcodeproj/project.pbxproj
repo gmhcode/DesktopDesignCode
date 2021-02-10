@@ -27,8 +27,8 @@
 		9070BA1D25CCCEF3003361F5 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070BA1B25CCCEF3003361F5 /* Sidebar.swift */; };
 		9070BA2325CDF567003361F5 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070BA2225CDF567003361F5 /* CourseItem.swift */; };
 		9070BA2425CDF568003361F5 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070BA2225CDF567003361F5 /* CourseItem.swift */; };
-		9078294525D4A4F100438353 /* closeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078294425D4A4F100438353 /* closeButton.swift */; };
-		9078294625D4A4F100438353 /* closeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078294425D4A4F100438353 /* closeButton.swift */; };
+		9078294525D4A4F100438353 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078294425D4A4F100438353 /* CloseButton.swift */; };
+		9078294625D4A4F100438353 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078294425D4A4F100438353 /* CloseButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,7 @@
 		9070BA1425CCCD42003361F5 /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
 		9070BA1B25CCCEF3003361F5 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		9070BA2225CDF567003361F5 /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
-		9078294425D4A4F100438353 /* closeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = closeButton.swift; sourceTree = "<group>"; };
+		9078294425D4A4F100438353 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +133,7 @@
 				9078293B25D4999300438353 /* Model */,
 				90631E9625CE04FF0037D940 /* Items */,
 				9070BA1425CCCD42003361F5 /* CoursesView.swift */,
-				9078294425D4A4F100438353 /* closeButton.swift */,
+				9078294425D4A4F100438353 /* CloseButton.swift */,
 				90631EA325CE05A30037D940 /* CourseList.swift */,
 				9070B9CE25CCC188003361F5 /* Assets.xcassets */,
 			);
@@ -361,7 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90631EAE25CE1A560037D940 /* Course.swift in Sources */,
-				9078294525D4A4F100438353 /* closeButton.swift in Sources */,
+				9078294525D4A4F100438353 /* CloseButton.swift in Sources */,
 				9070BA1C25CCCEF3003361F5 /* Sidebar.swift in Sources */,
 				9070BA2325CDF567003361F5 /* CourseItem.swift in Sources */,
 				9070B9F725CCC188003361F5 /* ContentView.swift in Sources */,
@@ -377,7 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90631EAF25CE1A560037D940 /* Course.swift in Sources */,
-				9078294625D4A4F100438353 /* closeButton.swift in Sources */,
+				9078294625D4A4F100438353 /* CloseButton.swift in Sources */,
 				9070BA1D25CCCEF3003361F5 /* Sidebar.swift in Sources */,
 				9070BA2425CDF568003361F5 /* CourseItem.swift in Sources */,
 				9070B9F825CCC188003361F5 /* ContentView.swift in Sources */,
