@@ -11,6 +11,7 @@ struct CoursesView: View {
     @State var show = false
     //namespace is where you put the collection of matched elements
     @Namespace var namespace
+    @Namespace var namespace2
     @State var selectedItem: Course? = nil
     @State var isDisabled = false
     
@@ -68,7 +69,16 @@ struct CoursesView: View {
                     .padding()
                 LazyVGrid(columns: [GridItem(.adaptive(minimum:240))]) {
                     ForEach(courseSections) { item in
+                        #if os(iOS)
+                        NavigationLink(
+                            destination: CourseDetail(namespace: namespace2))
+                        {
+                            CourseRow(item: item)
+                        }
+                        #else
                         CourseRow(item: item)
+                        #endif
+                        
                     }
                 }
                 .padding()

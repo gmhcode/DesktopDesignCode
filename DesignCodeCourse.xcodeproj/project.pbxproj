@@ -48,6 +48,8 @@
 		90ACB78125D4ABF600173FF1 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACB78025D4ABF600173FF1 /* VisualEffectBlur.swift */; };
 		90ACB78725D4AC0900173FF1 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACB78625D4AC0900173FF1 /* VisualEffectBlur.swift */; };
 		90ACB78D25D4B16A00173FF1 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACB78C25D4B16A00173FF1 /* TabBar.swift */; };
+		90ACB79325D5DF9500173FF1 /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACB79225D5DF9500173FF1 /* CourseSectionDetail.swift */; };
+		90ACB79425D5DF9500173FF1 /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACB79225D5DF9500173FF1 /* CourseSectionDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +102,7 @@
 		90ACB78025D4ABF600173FF1 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		90ACB78625D4AC0900173FF1 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		90ACB78C25D4B16A00173FF1 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		90ACB79225D5DF9500173FF1 /* CourseSectionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSectionDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +167,7 @@
 				90631E9625CE04FF0037D940 /* Items */,
 				9070BA1425CCCD42003361F5 /* CoursesView.swift */,
 				9078295725D4A6BF00438353 /* CourseDetail.swift */,
+				90ACB79225D5DF9500173FF1 /* CourseSectionDetail.swift */,
 				9078294425D4A4F100438353 /* CloseButton.swift */,
 				90631EA325CE05A30037D940 /* CourseList.swift */,
 				9070B9CE25CCC188003361F5 /* Assets.xcassets */,
@@ -402,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90631EAE25CE1A560037D940 /* Course.swift in Sources */,
+				90ACB79325D5DF9500173FF1 /* CourseSectionDetail.swift in Sources */,
 				9078294525D4A4F100438353 /* CloseButton.swift in Sources */,
 				90ACB78D25D4B16A00173FF1 /* TabBar.swift in Sources */,
 				9070BA1C25CCCEF3003361F5 /* Sidebar.swift in Sources */,
@@ -435,6 +440,7 @@
 				9078295925D4A6BF00438353 /* CourseDetail.swift in Sources */,
 				9078296A25D4A93E00438353 /* Tutorial.swift in Sources */,
 				9070BA2425CDF568003361F5 /* CourseItem.swift in Sources */,
+				90ACB79425D5DF9500173FF1 /* CourseSectionDetail.swift in Sources */,
 				9078297425D4A93E00438353 /* Livestream.swift in Sources */,
 				9070B9F825CCC188003361F5 /* ContentView.swift in Sources */,
 				9070BA0F25CCCB03003361F5 /* CourseRow.swift in Sources */,
