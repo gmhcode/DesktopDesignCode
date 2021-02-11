@@ -55,7 +55,7 @@ struct CoursesView: View {
                                 .matchedGeometryEffect(id: item.id, in: namespace, isSource: !show)
                                 .frame(height: 200)
                                 .onTapGesture {
-                                    withAnimation(.spring(response: 0.4, dampingFraction: 0.8, blendDuration: 0)) {
+                                    withAnimation(.spring(response: 0.5, dampingFraction: 0.8, blendDuration: 0)) {
                                         show.toggle()
                                         selectedItem = item
                                         isDisabled = true
@@ -107,7 +107,7 @@ struct CoursesView: View {
                         withAnimation(.spring()) {
                             show.toggle()
                             selectedItem = nil
-                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                                 isDisabled = false
                             }
                         }

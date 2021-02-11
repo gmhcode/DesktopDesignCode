@@ -35,8 +35,11 @@ struct CourseItem: View {
                 .font(.footnote)
                 .foregroundColor(Color.white)
         }
-        .padding(.all)
-        .cardStyle()
+//        .padding(.all)
+        .padding(16)
+        .background(course.color)
+        .clipShape(RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
+        .shadow(color: course.color.opacity(0.3), radius: 20, x: 0, y: 10)
 
     }
 }
