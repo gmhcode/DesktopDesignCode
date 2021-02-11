@@ -47,6 +47,7 @@
 		9078297625D4A93E00438353 /* LivestreamSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078296825D4A93E00438353 /* LivestreamSection.swift */; };
 		90ACB78125D4ABF600173FF1 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACB78025D4ABF600173FF1 /* VisualEffectBlur.swift */; };
 		90ACB78725D4AC0900173FF1 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACB78625D4AC0900173FF1 /* VisualEffectBlur.swift */; };
+		90ACB78D25D4B16A00173FF1 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACB78C25D4B16A00173FF1 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,7 @@
 		9078296825D4A93E00438353 /* LivestreamSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivestreamSection.swift; sourceTree = "<group>"; };
 		90ACB78025D4ABF600173FF1 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		90ACB78625D4AC0900173FF1 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		90ACB78C25D4B16A00173FF1 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				9070B9CD25CCC184003361F5 /* ContentView.swift */,
+				90ACB78C25D4B16A00173FF1 /* TabBar.swift */,
 				9070BA1B25CCCEF3003361F5 /* Sidebar.swift */,
 			);
 			path = Navigation;
@@ -400,6 +403,7 @@
 			files = (
 				90631EAE25CE1A560037D940 /* Course.swift in Sources */,
 				9078294525D4A4F100438353 /* CloseButton.swift in Sources */,
+				90ACB78D25D4B16A00173FF1 /* TabBar.swift in Sources */,
 				9070BA1C25CCCEF3003361F5 /* Sidebar.swift in Sources */,
 				9078296F25D4A93E00438353 /* TutorialSection.swift in Sources */,
 				9078297525D4A93E00438353 /* LivestreamSection.swift in Sources */,
