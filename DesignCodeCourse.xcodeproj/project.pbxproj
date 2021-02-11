@@ -45,6 +45,8 @@
 		9078297425D4A93E00438353 /* Livestream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078296725D4A93E00438353 /* Livestream.swift */; };
 		9078297525D4A93E00438353 /* LivestreamSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078296825D4A93E00438353 /* LivestreamSection.swift */; };
 		9078297625D4A93E00438353 /* LivestreamSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078296825D4A93E00438353 /* LivestreamSection.swift */; };
+		90ACB78125D4ABF600173FF1 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACB78025D4ABF600173FF1 /* VisualEffectBlur.swift */; };
+		90ACB78725D4AC0900173FF1 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACB78625D4AC0900173FF1 /* VisualEffectBlur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,8 @@
 		9078296625D4A93E00438353 /* GradientModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientModel.swift; sourceTree = "<group>"; };
 		9078296725D4A93E00438353 /* Livestream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Livestream.swift; sourceTree = "<group>"; };
 		9078296825D4A93E00438353 /* LivestreamSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivestreamSection.swift; sourceTree = "<group>"; };
+		90ACB78025D4ABF600173FF1 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		90ACB78625D4AC0900173FF1 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +183,7 @@
 		9070B9D525CCC188003361F5 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				90ACB78025D4ABF600173FF1 /* VisualEffectBlur.swift */,
 				9070B9D625CCC188003361F5 /* Info.plist */,
 			);
 			path = iOS;
@@ -187,6 +192,7 @@
 		9070B9DC25CCC188003361F5 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				90ACB78625D4AC0900173FF1 /* VisualEffectBlur.swift */,
 				9070B9DD25CCC188003361F5 /* Info.plist */,
 				9070B9DE25CCC188003361F5 /* macOS.entitlements */,
 			);
@@ -407,6 +413,7 @@
 				9078296B25D4A93E00438353 /* Download.swift in Sources */,
 				9078296D25D4A93E00438353 /* CourseSection.swift in Sources */,
 				9070BA1525CCCD42003361F5 /* CoursesView.swift in Sources */,
+				90ACB78125D4ABF600173FF1 /* VisualEffectBlur.swift in Sources */,
 				90631EA425CE05A30037D940 /* CourseList.swift in Sources */,
 				9078297125D4A93E00438353 /* GradientModel.swift in Sources */,
 			);
@@ -431,6 +438,7 @@
 				9078296C25D4A93E00438353 /* Download.swift in Sources */,
 				9078296E25D4A93E00438353 /* CourseSection.swift in Sources */,
 				9070BA1625CCCD42003361F5 /* CoursesView.swift in Sources */,
+				90ACB78725D4AC0900173FF1 /* VisualEffectBlur.swift in Sources */,
 				90631EA525CE05A30037D940 /* CourseList.swift in Sources */,
 				9078297225D4A93E00438353 /* GradientModel.swift in Sources */,
 			);
